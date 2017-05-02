@@ -15,4 +15,7 @@ $SMB_PASSWORD
 $SMB_PASSWORD
 EOF
 
-smbd -F
+smbd -D
+while true; do
+    sleep 1
+done 
